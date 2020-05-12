@@ -88,21 +88,6 @@ textarea {
     .header__phone:hover {
       text-shadow: 0 0 10px white; }
 
-@media screen and (min-width: 1300px) {
-  .header__top {
-    width: 1060px;
-    margin-left: auto;
-    margin-right: auto;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
-  .header__title {
-    margin-left: auto;
-    margin-right: auto;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between; } }
-
 @media screen and (max-width: 750px) {
   .header {
     padding: 24px 20px 80px;
@@ -122,6 +107,21 @@ textarea {
       opacity: 100; }
     .header__link {
       display: none; } }
+
+@media screen and (min-width: 1900px) {
+  .header__top {
+    width: 1060px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .header__title {
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; } }
 
 .nav {
   padding-top: 85px;
@@ -170,7 +170,7 @@ textarea {
   .nav {
     display: none; } }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1900px) {
   .nav {
     width: 1060px;
     margin-left: auto;
@@ -421,7 +421,7 @@ textarea {
       line-height: 36px;
       margin-bottom: 48px; } }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1900px) {
   .info {
     width: 1060px;
     margin-left: auto;
@@ -458,7 +458,7 @@ textarea {
   .gallery__caption {
     margin: 16px 0 32px; } }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1900px) {
   .gallery {
     width: 1060px;
     margin-left: auto;
@@ -578,7 +578,7 @@ textarea {
     .consultation__paragraph {
       margin-bottom: 32px; } }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1900px) {
   .consultation {
     width: 1060px;
     margin-left: auto;
@@ -688,7 +688,7 @@ textarea {
     .testimonials__top {
       margin-bottom: 53px; } }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1900px) {
   .testimonials {
     width: 1060px;
     margin-left: auto;
@@ -807,7 +807,7 @@ textarea {
     .contact__paragraph {
       margin-bottom: 32px; } }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1900px) {
   .contact {
     width: 1060px;
     margin-left: auto;
