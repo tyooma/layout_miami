@@ -192,27 +192,27 @@ textarea {
     height: 48px;
     z-index: 3; } }
 
-.menu {
+.mobile {
   opacity: 0;
   z-index: 2; }
-  .menu__checkbox {
+  .mobile__checkbox {
     position: absolute; }
-  .menu__btn > span,
-  .menu__btn > span::before,
-  .menu__btn > span::after {
+  .mobile__btn > span,
+  .mobile__btn > span::before,
+  .mobile__btn > span::after {
     position: absolute;
     width: 18px;
     height: 2px;
     background-color: #fff;
     -webkit-transition-duration: 0.3s;
             transition-duration: 0.3s; }
-  .menu__btn > span::before {
+  .mobile__btn > span::before {
     content: "";
     top: -8px; }
-  .menu__btn > span::after {
+  .mobile__btn > span::after {
     content: "";
     top: 8px; }
-  .menu__nav {
+  .mobile__nav {
     position: absolute;
     visibility: hidden;
     top: 0;
@@ -224,30 +224,30 @@ textarea {
     background-color: #0075ff;
     -webkit-transition-duration: 0.3s;
             transition-duration: 0.3s; }
-  .menu #menu__toggle {
+  .mobile #mobile__toggle {
     opacity: 0; }
-  .menu #menu__toggle:checked ~ .menu__btn > span {
+  .mobile #mobile__toggle:checked ~ .mobile__btn > span {
     -webkit-transform: rotate(45deg);
             transform: rotate(45deg); }
-  .menu #menu__toggle:checked ~ .menu__btn > span::before {
+  .mobile #mobile__toggle:checked ~ .mobile__btn > span::before {
     top: 0;
     -webkit-transform: rotate(0);
             transform: rotate(0); }
-  .menu #menu__toggle:checked ~ .menu__btn > span::after {
+  .mobile #mobile__toggle:checked ~ .mobile__btn > span::after {
     top: 0;
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg); }
-  .menu #menu__toggle:checked ~ .menu__box {
+  .mobile #mobile__toggle:checked ~ .mobile__nav {
     visibility: visible;
     left: 0; }
-  .menu__btn {
+  .mobile__btn {
     position: absolute;
     right: 20px;
     width: 18px;
     height: 12px;
     cursor: pointer;
     z-index: 1; }
-  .menu__item {
+  .mobile__item {
     display: block;
     margin-bottom: 32px;
     font-size: 22px;
@@ -257,16 +257,16 @@ textarea {
     text-decoration: none;
     -webkit-transition: color 0.3s;
     transition: color 0.3s; }
-    .menu__item_contact {
+    .mobile__item_contact {
       margin-bottom: 48px; }
-    .menu__item_number {
+    .mobile__item_number {
       margin-bottom: 16px;
       font-weight: 900;
       font-size: 12px;
       line-height: 16px;
       letter-spacing: 2px;
       text-transform: uppercase; }
-    .menu__item_action {
+    .mobile__item_action {
       padding-top: 0;
       padding-bottom: 8px;
       width: 115px;
@@ -274,13 +274,13 @@ textarea {
       font-size: 12px;
       line-height: 16px;
       border-bottom: 1px solid #fff; }
-  .menu__item:nth-child(6) {
+  .mobile__item:nth-child(6) {
     margin-bottom: 48px; }
-  .menu__item:hover {
+  .mobile__item:hover {
     color: #3e3e3e; }
 
 @media screen and (max-width: 750px) {
-  .menu {
+  .mobile {
     opacity: 100; } }
 
 .section {
